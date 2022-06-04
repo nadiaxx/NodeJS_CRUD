@@ -3,7 +3,7 @@ const router = express.Router();
 const mongoose = require('mongoose');
 const bcrypt = require('bcrypt');
 const jwt = require('jsonwebtoken');
-const Users = require('../models/Users');  //importing Users Schema
+const Users = require('../models/Users'); 
 
 router.post('/signup',(req,res,next)=>{
 
